@@ -1,0 +1,25 @@
+ pin1=5;  
+  pin2=7; 
+  pin3=9; 
+  bright=30
+-- function led(pin1,bright)
+	 pwm.setup(pin1, 255, bright*20)
+ pwm.start(pin1)
+ -- end
+ -- function led(pin2,bright)
+	 pwm.setup(pin2, 255, bright*2)
+ pwm.start(pin2)
+ -- end
+ -- function led(pin3,bright)
+	 -- pwm.setup(pin3, 255, bright*10)
+ -- pwm.start(pin3)
+ --end
+ int___=1
+ i=1;
+ --while(true) do
+ -- led(pin,int___)
+ -- int___=int___+i;
+ -- l.echo_(int___);
+ --end
+ ---dofile("sck.lua");
+ 
